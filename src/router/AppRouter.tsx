@@ -61,10 +61,10 @@ import InventoryList from '../pages/inventory/InventoryList'
 
 export default function AppRouter() {
 return (
-<Routes>
-<Route path="/" element={<Navigate to="/pos" replace />} />
-<Route path="/pos" element={<POS />} />
-<Route path="/inventory" element={<InventoryList />} />
-</Routes>
-)
+    <Routes>
+      <Route path="/" element={<Navigate to="/pos" replace />} />
+      <Route path="/pos" element={<POS />} />
+      <Route path="/inventory" element={<InventoryList />} />
+    </Routes>
+  )
 }
