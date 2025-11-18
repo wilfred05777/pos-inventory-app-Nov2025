@@ -5,10 +5,10 @@ import AppRouter from './router/AppRouter'
 
 export default function App() {
 return (
-<BrowserRouter>
-<div className="min-h-screen bg-gray-50 text-slate-900">
-<AppRouter />
-</div>
-</BrowserRouter>
-)
+        <BrowserRouter>
+            <div className="min-h-screen bg-gray-50 text-slate-900">
+                <AppRouter />
+            </div>
+        </BrowserRouter>
+    )
 }
